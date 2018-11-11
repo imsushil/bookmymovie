@@ -80,3 +80,5 @@ Returns an error since we don't have 4 contigous seats for the user (A5 is an is
 
 [Maven] (https://maven.apache.org/) - Dependency Management
 
+[MongoDB] (https://spring.io/projects/spring-data-mongodb) - Embedded DB used for storage
+
