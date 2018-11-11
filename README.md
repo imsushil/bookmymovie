@@ -1,6 +1,8 @@
 # bookmymovie
 A spring boot application that provides different APIs for booking seat(s) for a movie. For simplicity, I have assumed all theatres are single screen theatres. Through this project, you will know the basics of how to use Swagger to document API.
 
+**Note:** As the 3rd and 4th API have same resource path but different query parameters, the 4th API won't show in the swagger UI but you can hit it using Postman/SoapUI.
+
 **Demo**: https://book-movie.herokuapp.com/swagger-ui.html
 
 ## Getting Started
