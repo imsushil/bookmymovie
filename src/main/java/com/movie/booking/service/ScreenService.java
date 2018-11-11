@@ -207,28 +207,6 @@ public class ScreenService {
 			}
 		}
 		
-		/*System.out.println("prev="+prev+" "+after);
-		int start = Math.max(prev, seatNo - (noOfSeats - 1));
-		int end = Math.min(after, seatNo + (noOfSeats - 1));
-		System.out.println("start="+start+" "+end);
-		int count = 0;
-		List<Integer> temp = new ArrayList<>();
-		for (int i = start; i <= end; ++i) {
-			if (!bookedSeats.contains(i)) { // seat is available
-				temp.add(i);
-				count++;
-			} else { // seat is booked already
-				temp.clear();
-				count = 0;
-			}
-			if (count == noOfSeats) {
-				availableSeats.getAvailableSeats().put(row, temp);
-				break;
-			}
-		}*/
-		/*if (temp.size() != noOfSeats) {
-			throw new SeatAlreadyBookedException(noOfSeats + " countigous seats not found.");
-		}*/
 		Collections.sort(seatList);
 		availableSeats.getAvailableSeats().put(row, seatList);
 		return availableSeats;
